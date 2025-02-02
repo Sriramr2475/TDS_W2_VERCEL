@@ -1,1 +1,16 @@
-[{"name":"Dm","marks":58},{"name":"sdtHH2McT","marks":40},{"name":"X6DE","marks":3},{"name":"kC","marks":45},{"name":"4Xc5OCd6LY","marks":47},{"name":"yCyMs1","marks":41},{"name":"4Hol","marks":91},{"name":"EOTw","marks":88},{"name":"srLBndO","marks":71},{"name":"a","marks":31},{"name":"nwK1rB","marks":64},{"name":"eRsOPFcEs","marks":14},{"name":"blBPZUU55","marks":24},{"name":"3tcVv","marks":83},{"name":"fwLB","marks":19},{"name":"hjrnolF","marks":48},{"name":"32yHJz","marks":7},{"name":"SP61JX6Uu","marks":1},{"name":"ImBuS","marks":71},{"name":"5","marks":89},{"name":"wJcHPSXF","marks":76},{"name":"HGsMj","marks":91},{"name":"ShaeFBkb2","marks":6},{"name":"Rkdg","marks":17},{"name":"W","marks":54},{"name":"fnPVlqjimn","marks":99},{"name":"Dt3iPtC8YS","marks":21},{"name":"Wh3JfqRV","marks":66},{"name":"t8tHE4","marks":57},{"name":"hEE","marks":55},{"name":"aot7Da97","marks":55},{"name":"FXzGKBM","marks":44},{"name":"naZzv9g","marks":79},{"name":"AY1re4sib","marks":14},{"name":"WCZTS","marks":3},{"name":"smSSYsSm0d","marks":48},{"name":"0mC3Z","marks":64},{"name":"FRz0hN8HS1","marks":80},{"name":"AiixLWOI","marks":96},{"name":"az","marks":60},{"name":"04YMz","marks":94},{"name":"inGaxn4C","marks":74},{"name":"h7","marks":82},{"name":"As","marks":58},{"name":"z0C","marks":93},{"name":"Z8","marks":16},{"name":"qtf8","marks":13},{"name":"gwC1Qom","marks":94},{"name":"I","marks":50},{"name":"rE3n1","marks":51},{"name":"n79qvJ6MP5","marks":29},{"name":"8HphpUSO","marks":69},{"name":"D","marks":99},{"name":"fbGO9S5xea","marks":10},{"name":"zDaznBL","marks":6},{"name":"l1ZtE35wMT","marks":91},{"name":"Kns1FX1GP","marks":51},{"name":"E","marks":99},{"name":"8HtLDCimda","marks":4},{"name":"FK5M","marks":65},{"name":"zVgeY","marks":19},{"name":"At4HyQuX3a","marks":4},{"name":"Bh","marks":9},{"name":"oIJ","marks":95},{"name":"w","marks":31},{"name":"NA","marks":33},{"name":"XpFTCmIZx","marks":85},{"name":"Tdx3w7","marks":38},{"name":"Y40KdMUyt5","marks":57},{"name":"PuhudHFBC4","marks":97},{"name":"yMKZbNSM2","marks":62},{"name":"aPfjYmt","marks":94},{"name":"0i","marks":14},{"name":"xSGk0vYV","marks":30},{"name":"K3ABWBlm","marks":57},{"name":"3d","marks":23},{"name":"RaI5RXyeB","marks":52},{"name":"8woiR","marks":67},{"name":"f","marks":32},{"name":"ACyUAO91Xc","marks":49},{"name":"DJZ9nyosgm","marks":24},{"name":"N0Awi","marks":57},{"name":"JEgbkCy","marks":2},{"name":"tpZ1fXXn9Y","marks":16},{"name":"39hYTc47","marks":74},{"name":"S","marks":97},{"name":"OUq","marks":17},{"name":"ymkH","marks":69},{"name":"l65ub9oio4","marks":80},{"name":"Iv","marks":3},{"name":"LiA5cvtwi","marks":86},{"name":"aY9FUQTV","marks":18},{"name":"qC0","marks":20},{"name":"j0SUlN","marks":19},{"name":"T1P6Zj","marks":2},{"name":"ELJgxMscCn","marks":76},{"name":"t","marks":3},{"name":"Uz","marks":95},{"name":"3","marks":28},{"name":"i1xws","marks":12}]
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "api/index.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "api/index.py"
+      }
+    ]
+  }
+  
